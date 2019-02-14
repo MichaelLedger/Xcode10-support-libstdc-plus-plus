@@ -18,6 +18,13 @@ libstdc++适配Xcode10与iOS12
 ## 临时解决办法:
 从Xcode9.4拷贝缺失的libstdc++
 
+### 脚本快速拷贝
+打开终端，cd到当前目录，执行脚本install.sh即可(需要输入管理员密码才有权限修改)
+```
+$ cd 当前项目根目录(.../Xcode10-support-libstdc-plus-plus-master)
+$ sh install.sh
+```
+
 ### 真机适配：
 1. 复制文件夹
 
