@@ -16,7 +16,7 @@ sudo cp libstdc++_tbd_iPhoneOS/* /Applications/Xcode.app/Contents/Developer/Plat
 # Support iPhoneSimulator
 sudo cp -rf c++ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include
 sudo cp libstdc++_tbd_iPhoneOS/* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/
-sudo cp libstdc++_dylib_Simulator/* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/
+sudo cp libstdc++_dylib_Simulator/* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/
 
 # Support MacOSX
 sudo cp -rf c++ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
