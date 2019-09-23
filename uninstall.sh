@@ -18,7 +18,7 @@ sudo rm libstdc++.6.0.9.tbd libstdc++.6.tbd libstdc++.tbd
 sudo rm -rf /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/c++
 cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/
 sudo rm libstdc++.6.0.9.tbd libstdc++.6.tbd libstdc++.tbd
-cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/
+cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib
 sudo rm libstdc++.6.0.9.dylib libstdc++.6.dylib libstdc++.dylib
 
 # Unsupport MacOSX
